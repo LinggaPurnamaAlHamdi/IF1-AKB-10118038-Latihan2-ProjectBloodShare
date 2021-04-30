@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#43b3e6"
+    tools:context=".Verify">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify your Account"
+        android:typeface="normal"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We have send verification code to your email"
+        android:typeface="normal"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="enter verification code here..."
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:backgroundTint="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="55dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:textSize="16sp"
+        android:typeface="normal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#43b3e6"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp"
+        android:padding="15dp"
+        android:onClick="home"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resend"
+        android:typeface="normal"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
